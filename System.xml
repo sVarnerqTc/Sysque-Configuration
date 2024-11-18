@@ -6,7 +6,7 @@
     <ChangeSizeSpec Id="1" Unit="IMPERIAL" SystemName="CU Solder Nibco x DI GRV Victaulic" TeeMPipeGreater1="2.5" TeeBPipeMore="2" TeeMPipeGreater2="2" TeeBPipeLess="1.5" />
     <ChangeSizeSpec Id="2" Unit="IMPERIAL" SystemName="QTC BW-Sch40 x CU" TeeMPipeGreater1="2.5" TeeBPipeMore="2" TeeMPipeGreater2="2" TeeBPipeLess="1.5" />
   </ChangeSizeSpecification>
-  <SystemDef name="-----------------OTHER-------------------" type="IMPERIAL" Id="32" InVisibility="" SystemUniqueId="32" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us" />
+  <SystemDef name="-----------------OTHER-------------------" type="IMPERIAL" Id="33" InVisibility="" SystemUniqueId="32" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us" />
   <SystemDef name="----------------DWV------------------" type="IMPERIAL" Id="22" InVisibility="" SystemUniqueId="24" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us" />
   <SystemDef name="-----------PRESSURE PIPE-----------" type="METRIC" Id="1" SystemUniqueId="1" HangerDisabledFor="stephen.varner@questec.us" />
   <SystemDef name="CU Solder Poongsan x CS GRV Victaulic" type="METRIC" Id="8" SystemUniqueId="8" HangerDisabledFor="stephen.varner@questec.us">
@@ -1171,7 +1171,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="CI No-Hub (Vent)" type="IMPERIAL" Id="27" SystemUniqueId="3e50436c-4424-43cb-beed-4eedfc10f62e" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us">
+  <SystemDef name="CI No-Hub (Vent)" type="IMPERIAL" Id="28" SystemUniqueId="3e50436c-4424-43cb-beed-4eedfc10f62e" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Pipe, CI, No-Hub (Vent)" ID="24207602120235111" length="10" PreferredJunctionType="Tee" Material="" oldMat="" sizeRange="1.5,2,3,4,5,6,8,10,12,15" manufacturer="Charlotte" path="\imperial\pipes\charlotte\ci dwv pipe no-hub\cast iron\dwv\" icon="charlotte ci nh-2 pipe nhxnh.rfa" description="Pipe, CI, No-Hub" descriptionType="Pipe, CI, No-Hub" ConnDesc="114" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="True" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -1511,7 +1511,7 @@
       <Union />
     </Fittings>
   </SystemDef>
-  <SystemDef name="QTC Hangers" type="IMPERIAL" Id="34" InVisibility="" IsHangerNeeded="False" SystemUniqueId="9c6aaf2b-4136-4a77-8c9e-d07a0887d829" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="QTC Hangers" type="IMPERIAL" Id="35" InVisibility="" IsHangerNeeded="False" SystemUniqueId="9c6aaf2b-4136-4a77-8c9e-d07a0887d829" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="QTC Hangers" ID="242028231176162211" length="5" PreferredJunctionType="Tee" Material="Generic Pipes Cast Iron" oldMat="" sizeRange="2,3,4,5,6" manufacturer="Generic Pipes" path="\imperial\pipes\generic pipes\ci dwv pipe sv hub\cast iron\dwv\" icon="generic pipes ci pipe x5ft svxsv.rfa" description="*GO to Building Layout or Custom" descriptionType="*GO to Building Layout or Custom" ConnDesc="126" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
     </Fittings>
@@ -2281,7 +2281,7 @@
     </Fittings>
   </SystemDef>
   <SystemDef name="-----------Pressure Pipe-----------" type="IMPERIAL" Id="2" InVisibility="" SystemUniqueId="913f46c9-6a3a-407b-bc19-1ddf5a0230d4" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us" />
-  <SystemDef name="Thermomters &amp; Gauges" type="IMPERIAL" Id="33" InVisibility="" SystemUniqueId="b0cf3011-c6a2-4b72-995d-39f56fb39dec" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us">
+  <SystemDef name="Thermomters &amp; Gauges" type="IMPERIAL" Id="34" InVisibility="" SystemUniqueId="b0cf3011-c6a2-4b72-995d-39f56fb39dec" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us">
     <Fittings name="VOID" isFitting="True">
       <pipeTypeItems name="Pipe, Type L Hard Copper-10" ID="2429833185111" length="20" PreferredJunctionType="Tee" Material="Cerro CU" oldMat="" sizeRange="0.25,0.375,0.5,0.625,0.75,1,1.25,1.5,2,2.5*,3*,3.5*,4*,5*,6*,8*" manufacturer="Cerro" path="\imperial\pipes\cerro\copper pipe pressure soldered\copper\pressure\" icon="cerro cu pipe type l hard copper solder x solder.rfa" description="Pipe, Type L Hard Copper" descriptionType="Pipe, Type L Hard Copper" ConnDesc="109" ExtraField="" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow />
@@ -2430,7 +2430,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="PVC DWV Charlotte" type="IMPERIAL" Id="24" InVisibility="" IsHangerNeeded="False" SystemUniqueId="5951ac9c-132f-4f11-a849-291cc5a65d02" HangerDisabledFor="justin.wilburn@questec.us,tony.hagerman@questec.us">
+  <SystemDef name="PVC DWV Charlotte" type="IMPERIAL" Id="25" InVisibility="" IsHangerNeeded="False" SystemUniqueId="5951ac9c-132f-4f11-a849-291cc5a65d02" HangerDisabledFor="justin.wilburn@questec.us,tony.hagerman@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Pipe, PVC Schedule 40 DWV" ID="24228942131895111" length="20" PreferredJunctionType="Tee" Material="Charlotte PVC Sch40" oldMat="" sizeRange="1.25,1.5,2,3,4,5,6,8,10,12,14,16" manufacturer="Charlotte" path="\imperial\pipes\charlotte\pvc dwv pipe sch40 pe\pvc\sch40\" icon="clt pvc sch40 dwv pipe 20 ft pexpe.rfa" description="Pipe, PVC Sch 40 DWV" descriptionType="Pipe, PVC Sch 40 DWV" ConnDesc="106" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" IsBendable="False" DefaultBendRadius="5x" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -2492,7 +2492,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="PVC DWV Charlotte (Vent)" type="IMPERIAL" Id="25" InVisibility="" IsHangerNeeded="False" SystemUniqueId="9d4620b0-2db7-4a08-b8db-7f4e9fe45ad6" HangerDisabledFor="justin.wilburn@questec.us,tony.hagerman@questec.us">
+  <SystemDef name="PVC DWV Charlotte (Vent)" type="IMPERIAL" Id="26" InVisibility="" IsHangerNeeded="False" SystemUniqueId="9d4620b0-2db7-4a08-b8db-7f4e9fe45ad6" HangerDisabledFor="justin.wilburn@questec.us,tony.hagerman@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Pipe, PVC Schedule 40 DWV vent" ID="24228942131895111" length="20" PreferredJunctionType="Tee" Material="Charlotte PVC Sch40" oldMat="" sizeRange="1.25,1.5,2,3,4,5,6,8,10,12,14,16" manufacturer="Charlotte" path="\imperial\pipes\charlotte\pvc dwv pipe sch40 pe\pvc\sch40\" icon="clt pvc sch40 dwv pipe 20 ft pexpe.rfa" description="Pipe, PVC Sch 40 DWV" descriptionType="Pipe, PVC Sch 40 DWV" ConnDesc="106" ExtraField="" FlangedType="Flat Face" displayPosition="0,4" DispPosition="21" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="True" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -2531,7 +2531,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Service Weight (Waste)" type="IMPERIAL" Id="28" InVisibility="" IsHangerNeeded="False" SystemUniqueId="3017fed7-b9cd-4ae9-bc66-7327f0bdbde5" HangerDisabledFor="tony.hagerman@questec.us">
+  <SystemDef name="Service Weight (Waste)" type="IMPERIAL" Id="29" InVisibility="" IsHangerNeeded="False" SystemUniqueId="3017fed7-b9cd-4ae9-bc66-7327f0bdbde5" HangerDisabledFor="tony.hagerman@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Pipe, Hub and Spigot, CI" ID="24207909120255111" length="10" PreferredJunctionType="Tee" Material="" oldMat="" sizeRange="2,3,4,5,6,8,10,12,15" manufacturer="Charlotte" path="\imperial\pipes\charlotte\ci dwv pipe sv\cast iron\dwv\" icon="charlotte ci sv-3 pipe svxspg.rfa" description="Pipe, Hub and Spigot, CI" descriptionType="Pipe, Hub and Spigot, CI" ConnDesc="127*126" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="True" />
       <Elbow>
@@ -2578,7 +2578,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="QTC PVDF Fuseal 2550, Sch 40, George Fischer" type="IMPERIAL" Id="35" InVisibility="" IsHangerNeeded="False" SystemUniqueId="32950f8b-b6d0-4910-afec-604a5ae874fd" HangerDisabledFor="tony.hagerman@questec.us">
+  <SystemDef name="QTC PVDF Fuseal 2550, Sch 40, George Fischer" type="IMPERIAL" Id="36" InVisibility="" IsHangerNeeded="False" SystemUniqueId="32950f8b-b6d0-4910-afec-604a5ae874fd" HangerDisabledFor="tony.hagerman@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="QTC PVDF Fuseal 2550, Sch 40, George Fischer" ID="24224595130085111" length="10" PreferredJunctionType="Tee" Material="" oldMat="" sizeRange="0.5,0.75,1,1.25,1.5,2,2.5,3,4" manufacturer="George Fischer" path="\imperial\pipes\george fischer\sygef pvdf-hp pipe sf\pvdf\pn16\" icon="gf pvdf-hp pn16 pipe pexpe.rfa" description="PVDF, Pipe, Sch 40, George Fischer" descriptionType="PVDF, Pipe, Sch 40, George Fischer" ConnDesc="120" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -2620,7 +2620,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="DWV Copper" type="IMPERIAL" Id="29" InVisibility="" IsHangerNeeded="False" SystemUniqueId="e353d040-d781-4561-a236-d221b2a05f91" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="DWV Copper" type="IMPERIAL" Id="30" InVisibility="" IsHangerNeeded="False" SystemUniqueId="e353d040-d781-4561-a236-d221b2a05f91" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True" />
     <Fittings name="Valves" isValve="True" />
     <Fittings name="Accessories" />
@@ -2934,7 +2934,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Compass Health Vaccum (Spears PVC)" type="IMPERIAL" Id="36" InVisibility="" IsHangerNeeded="False" SystemUniqueId="d1ae4de7-5211-4119-b96f-7729ccaca628" HangerDisabledFor="tony.hagerman@questec.us">
+  <SystemDef name="Compass Health Vaccum (Spears PVC)" type="IMPERIAL" Id="37" InVisibility="" IsHangerNeeded="False" SystemUniqueId="d1ae4de7-5211-4119-b96f-7729ccaca628" HangerDisabledFor="tony.hagerman@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Compass Health Vaccum (Spears PVC)" ID="2416440797445111" length="10" PreferredJunctionType="Tee" Material="Spears PVC" oldMat="" sizeRange="0.125,0.25,0.375,0.5,0.75,1,1.25,1.5,2,2.5,3,3.5,4,5,6,8,10,12,14,16,18,20,24" manufacturer="Spears" path="\imperial\pipes\spears\pvc sch40 pipe pe\pvc\sch40\" icon="spears pvc sch40 d1785 white pvc pipe pexpe.rfa" description="Spears, Sch 40 PVC, D1785 White Pipe" descriptionType="Spears, Sch 40 PVC, D1785 White Pipe" ConnDesc="106" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="Dental Vacuum" ServiceTypeColor="" SystemClassification="OtherPipe" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -2959,7 +2959,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="ACR Capped &amp; Clean" type="IMPERIAL" Id="37" InVisibility="" IsHangerNeeded="False" SystemUniqueId="f5e5bfff-4510-48d5-8797-931a4d30655e" HangerDisabledFor="david.scofield@questec.us,stephen.varner@questec.us">
+  <SystemDef name="ACR Capped &amp; Clean" type="IMPERIAL" Id="38" InVisibility="" IsHangerNeeded="False" SystemUniqueId="f5e5bfff-4510-48d5-8797-931a4d30655e" HangerDisabledFor="david.scofield@questec.us,stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="ACR Copper Tube-1" ID="24196873113725111" length="20" PreferredJunctionType="Tee" Material="Mueller-Ind Copper" oldMat="" sizeRange="0.125,0.1875,0.25,0.3125,0.375,0.5,0.625,0.75,0.875,1.125,1.375,1.625" manufacturer="Mueller-Ind" path="\imperial\pipes\mueller-ind\cu acr tube solder\copper\acr\" icon="mueller-ind cu refrigeration soft coil x100ft pexpe.rfa" description="ACR COPPER TUBE                                    REFRIG SIZES" descriptionType="ACR Copper Tubing, Capped &amp; Clean (Pipe Size = O.D.)" ConnDesc="109" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <pipeTypeItems name="ACR Capped &amp; Clean" ID="241968691137265711" length="20" PreferredJunctionType="Tee" Material="Mueller-Ind Copper" oldMat="" sizeRange="0.375,0.5,0.625,0.75,0.875,1.125,1.375,1.625,2.125,2.625,3.125,3.625,4.125,5.125,6.125,8.125" manufacturer="Mueller-Ind" path="\imperial\pipes\mueller-ind\cu acr tube solder\copper\acr\" icon="mueller-ind cu type l acr tube x20ft pexpe.rfa" description="Pipe," descriptionType="" ConnDesc="109" ExtraField="" FlangedType="Flat Face" displayPosition="4,0" DispPosition="5" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
@@ -2981,7 +2981,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="QTC Sch 80 PVC" type="IMPERIAL" Id="38" InVisibility="" IsHangerNeeded="False" SystemUniqueId="cb507fdc-5a10-4f46-8549-cefc8a430571" HangerDisabledFor="tony.hagerman@questec.us">
+  <SystemDef name="QTC Sch 80 PVC" type="IMPERIAL" Id="39" InVisibility="" IsHangerNeeded="False" SystemUniqueId="cb507fdc-5a10-4f46-8549-cefc8a430571" HangerDisabledFor="tony.hagerman@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="QTC Sch 80 PVC" ID="246784245205111" length="10" PreferredJunctionType="Tee" Material="Spears PVC Sch80" oldMat="" sizeRange="0.125,0.25,0.375,0.5,0.75,1,1.25,1.5,2,2.5,3,4,6,8,10,12,14,16,18,20,24" manufacturer="Spears" path="\imperial\pipes\spears\pvc sch80 pipe pe\pvc\sch80\" icon="spears pvc sch80 industrial pipe length 10 feet pexpe.rfa" description="PVC Sch 80, 10' Pipe, Spears" descriptionType="PVC Sch 80, 10' Pipe, Spears" ConnDesc="106" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -3043,7 +3043,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Spears CPVC DWV" type="IMPERIAL" Id="30" InVisibility="" IsHangerNeeded="False" SystemUniqueId="0176a38e-5cc9-4397-87d8-20a9cf0436a9" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="Spears CPVC DWV" type="IMPERIAL" Id="31" InVisibility="" IsHangerNeeded="False" SystemUniqueId="0176a38e-5cc9-4397-87d8-20a9cf0436a9" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Spears CPVC DWV LabWaste" ID="242306814665111" length="10" PreferredJunctionType="Tee" Material="Spears CPVC Sch40" oldMat="" sizeRange="1.5,2,3,4,6,8,10,12,14,16,18,20,24" manufacturer="Spears" path="\imperial\pipes\spears\cpvc labwaste sch40 pipe\cpvc\sch40\" icon="sps cpvc lw labwaste pipe spgxspg.rfa" description="Pipe, CPVC DWV Lab Waste, Spears" descriptionType="Pipe, CPVC DWV Lab Waste, Spears" ConnDesc="106" ExtraField="" FlangedType="Flat Face" displayPosition="0,3" DispPosition="16" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -3086,7 +3086,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Spears Low-Extractable" type="IMPERIAL" Id="39" InVisibility="" IsHangerNeeded="False" SystemUniqueId="5ecae74f-ef06-4327-b503-bf5adc208d3f" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="Spears Low-Extractable" type="IMPERIAL" Id="40" InVisibility="" IsHangerNeeded="False" SystemUniqueId="5ecae74f-ef06-4327-b503-bf5adc208d3f" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Spears Low-Extractable" ID="2423624545205111" length="15" PreferredJunctionType="Tee" Material="Spears PVC" oldMat="" sizeRange="0.5,0.75,1,1.25,1.5,2,3,4,6" manufacturer="Spears" path="\imperial\pipes\spears\pvc sch80 pipe pe\pvc\sch80\" icon="sps pvc lxt pipe x15ft sch80 pexpe.rfa" description="" descriptionType="" ConnDesc="106" ExtraField="" FlangedType="Flat Face" displayPosition="2,5" DispPosition="28" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -3131,7 +3131,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Carriers" type="IMPERIAL" Id="40" InVisibility="" IsHangerNeeded="False" SystemUniqueId="744e94be-7802-4d41-a24e-268cb1f56f8e" HangerDisabledFor="justin.wilburn@questec.us">
+  <SystemDef name="Carriers" type="IMPERIAL" Id="41" InVisibility="" IsHangerNeeded="False" SystemUniqueId="744e94be-7802-4d41-a24e-268cb1f56f8e" HangerDisabledFor="justin.wilburn@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <Normal>
         <addDefaultItem name="Zurn CI Z1201-ND4 Adj Horz Closet Carrier NHxNHxNH" isConnCheck="" DisableFor="" fittingType="Normal" position="1" sizeRange="4x4x4x4" GasketThickness="" manufacturer="Zurn" path="\imperial\equipment\zurn\ci adjustable closet carrier nh\cast iron\dwv\" icon="Zurn CI Z1201-ND4 Adj Horz Closet Carrier NHxNHxNH.rfa" UserCustomFamilyID="0" description="Closet Carrier - Zurn CI Z1201-ND4, Double" descriptionType="Closet Carrier - Zurn CI Z1201-ND4, Double" angle="90" ConnDesc="114*114*114" CenterRadius="0.735168749524939" Diameter="0.333333333333333" ExtraField="" csvFileName="" displayPosition="0,0" DispPosition="1" ID="24121009705232211" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
@@ -3162,7 +3162,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="SS VIC PRESS" type="IMPERIAL" Id="41" InVisibility="" IsHangerNeeded="False" SystemUniqueId="0d270d72-371a-4ee7-b7eb-9068c9b92b80" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="SS VIC PRESS" type="IMPERIAL" Id="42" InVisibility="" IsHangerNeeded="False" SystemUniqueId="0d270d72-371a-4ee7-b7eb-9068c9b92b80" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <Elbow>
         <addDefaultItem name="Victaulic SS-304 Style 590 90 Elbow Grade E O-Ring P x P" isConnCheck="" DisableFor="" fittingType="Elbow" position="1" sizeRange="0.5x0.5,0.75x0.75,1x1,1.5x1.5,2x2" GasketThickness="" manufacturer="Victaulic" path="\imperial\pressurefittings\victaulic\-ss304 pressfit ftgs type-e\stainless steel\300#\" icon="Victaulic SS-304 Style 590 90 Elbow Grade E O-Ring P x P.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="119*119" CenterRadius="0.531666666666666" Diameter="0.166666666666667" ExtraField="" csvFileName="Victaulic SS-304 Style 590 90 Elbow Grade E O-Ring P x P" displayPosition="2,0" DispPosition="3" ID="243640126043711" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
@@ -3185,7 +3185,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="AOD Steam Valves" type="IMPERIAL" Id="42" InVisibility="" IsHangerNeeded="False" SystemUniqueId="c154557b-ffe0-4cf6-99c7-66951346076f" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="AOD Steam Valves" type="IMPERIAL" Id="43" InVisibility="" IsHangerNeeded="False" SystemUniqueId="c154557b-ffe0-4cf6-99c7-66951346076f" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <Valves>
         <addDefaultItem name="Keckley CI Class 125 A-7 Y-Strainer FlgdxFlgd" isConnCheck="" DisableFor="" fittingType="Valves" position="1" sizeRange="" manufacturer="Keckley" path="\imperial\accessories\keckley\ci strainers 125 flgd\cast iron\150#\" icon="Keckley CI Class 125 A-7 Y-Strainer FlgdxFlgd.rfa" GUID="1287bbb0-84fb-46d8-8ea4-04a07644be52" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="110*110*110*110" CenterRadius="0.355542670122418" Diameter="0.0208333333333333" ExtraField="" csvFileName="Keckley CI Class 125 A-7 Y-Strainer FlgdxFlgd" displayPosition="0,0" DispPosition="1" ID="2414274563234611" IsAngleChecking="False" ValveType="Weld-Neck" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
@@ -3212,7 +3212,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Ductile Iron" type="IMPERIAL" Id="43" InVisibility="" IsHangerNeeded="False" SystemUniqueId="3f934a20-19f8-46ea-b586-5a554693be2c" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="Ductile Iron" type="IMPERIAL" Id="44" InVisibility="" IsHangerNeeded="False" SystemUniqueId="3f934a20-19f8-46ea-b586-5a554693be2c" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="DI-Pipe" ID="2410162560025111" length="19.5" PreferredJunctionType="Tee" Material="US Pipe Ductile Iron" oldMat="" sizeRange="3,4,6,8,10,12,14*,16*,18*,20*,24*,30*,36*,42*,48*,54*,60*,64*" manufacturer="US Pipe" path="\imperial\pipes\us pipe\dips c115 pipe class 125 flgd\ductile iron\125#\" icon="us pipe di class 125 c115 pipe flgdxflgd.rfa" description="" descriptionType="" ConnDesc="110" ExtraField="" FlangedType="Flat Face" displayPosition="3,0" DispPosition="4" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -3784,7 +3784,7 @@
       <Union />
     </Fittings>
   </SystemDef>
-  <SystemDef name="CI No-Hub" type="IMPERIAL" Id="26" InVisibility="" IsHangerNeeded="False" SystemUniqueId="bf2861fd-282c-4ef8-86bd-a57b6c50cffb" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="CI No-Hub" type="IMPERIAL" Id="27" InVisibility="" IsHangerNeeded="False" SystemUniqueId="bf2861fd-282c-4ef8-86bd-a57b6c50cffb" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Pipe, CI No-Hub" ID="24207602120235111" length="10" PreferredJunctionType="Tee" Material="" oldMat="" sizeRange="1.5,2,3,4,5,6,8,10,12,15" manufacturer="Charlotte" path="\imperial\pipes\charlotte\ci dwv pipe no-hub\cast iron\dwv\" icon="charlotte ci nh-2 pipe nhxnh.rfa" description="Pipe, CI No-Hub" descriptionType="Pipe, CI No Hub" ConnDesc="114" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -3844,7 +3844,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="American Royal" type="IMPERIAL" Id="44" InVisibility="" IsHangerNeeded="False" SystemUniqueId="6d84d6a8-c320-4781-be3e-b87bec0d54f0" HangerDisabledFor="justin.wilburn@questec.us">
+  <SystemDef name="American Royal" type="IMPERIAL" Id="45" InVisibility="" IsHangerNeeded="False" SystemUniqueId="6d84d6a8-c320-4781-be3e-b87bec0d54f0" HangerDisabledFor="justin.wilburn@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Pex Tube - Blue" ID="24209354121165111" length="100" PreferredJunctionType="Tee" Material="" oldMat="" sizeRange="0.25*,0.375*,0.5,0.75,1,1.25*,1.5*,2*" manufacturer="Zurn" path="\imperial\pipes\zurn\pe zurnpex tube pex\polyethylene\tubing\" icon="zurn pe q_p pex tube blue pexxpex.rfa" description="" descriptionType="" ConnDesc="124" ExtraField="" FlangedType="Flat Face" displayPosition="1,0" DispPosition="2" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="Domestic Cold Water" ServiceTypeColor="" SystemClassification="DomesticColdWater" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <pipeTypeItems name="Soft Copper, Type K" ID="24209354121165111" length="100" PreferredJunctionType="Tee" Material="" oldMat="" sizeRange="0.25,0.375,0.5,0.75,1,1.25,1.5,2" manufacturer="Zurn" path="\imperial\pipes\zurn\pe zurnpex tube pex\polyethylene\tubing\" icon="zurn pe q_p pex tube blue pexxpex.rfa" description="" descriptionType="" ConnDesc="109" ExtraField="" FlangedType="Flat Face" duplicatefrom="Pex Tube - Blue" displayPosition="0,7" DispPosition="36" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="Domestic Cold Water" ServiceTypeColor="" SystemClassification="DomesticColdWater" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
@@ -3929,7 +3929,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="DS 150 Weld (Hydronic)" type="IMPERIAL" Id="45" InVisibility="" SystemUniqueId="bb9e003a-7262-4e43-b76b-7f2cbb417c0d" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us,david.scofield@questec.us">
+  <SystemDef name="DS 150 Weld (Hydronic)" type="IMPERIAL" Id="46" InVisibility="" SystemUniqueId="bb9e003a-7262-4e43-b76b-7f2cbb417c0d" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us,david.scofield@questec.us">
     <Fittings name="Carbon-Steel" isFitting="True">
       <pipeTypeItems name="Pipe, BEVxBEV Sch 40, A53 Type E Gr B-2" ID="243926029055111" length="20.91667" PreferredJunctionType="Tee" Material="Pipe Mill List CS Std Wt" oldMat="" sizeRange="0.125,0.25,0.375,0.5,0.75,1,1.25,1.5,2,2.5,3,3.5,4,4.5,5,6,7,8,9,10,11,12,14,16,18,20,24,26,28,30,32,34,36,42,48" manufacturer="Pipe Mill List" path="\imperial\pipes\pipe mill list\cs std wt pipe bw\carbon steel\std\" icon="pipe mill list cs std wt a53 erw gr-b pipe bw x bw.rfa" description="*Pipe, Sch 40, A53 Type E Gr B" descriptionType="*Pipe, Sch 40, A53 Type E Gr B" ConnDesc="102" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -4190,7 +4190,7 @@
       <Valves />
     </Fittings>
   </SystemDef>
-  <SystemDef name="Murr" type="IMPERIAL" Id="46" InVisibility="" IsHangerNeeded="False" SystemUniqueId="289faeb3-6d09-4d5b-9b38-53222f93f3f2" HangerDisabledFor="tony.hagerman@questec.us">
+  <SystemDef name="Murr" type="IMPERIAL" Id="47" InVisibility="" IsHangerNeeded="False" SystemUniqueId="289faeb3-6d09-4d5b-9b38-53222f93f3f2" HangerDisabledFor="tony.hagerman@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <Normal>
         <addDefaultItem name="JR Smith CI 3150Y Floor Drain NH" isConnCheck="" DisableFor="" fittingType="Normal" position="1" sizeRange="2,3,4" GasketThickness="" manufacturer="JR Smith" path="\imperial\drainagefittings\jr smith\ci floor drain no-hub\cast iron\dwv\" icon="JR Smith CI 3150Y Floor Drain NH.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="114" CenterRadius="0.947916666666265" Diameter="0.166666666666667" ExtraField="" csvFileName="" displayPosition="0,0" DispPosition="1" ID="241784031019631711" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
@@ -4207,7 +4207,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Aquatherm Green" type="IMPERIAL" Id="47" InVisibility="" IsHangerNeeded="False" SystemUniqueId="24b5f768-b011-4592-a343-e7b28e2b593b" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="Aquatherm Green" type="IMPERIAL" Id="48" InVisibility="" IsHangerNeeded="False" SystemUniqueId="24b5f768-b011-4592-a343-e7b28e2b593b" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Aquatherm Green" ID="2412016370055111" length="19" PreferredJunctionType="Tee" Material="Aquatherm PP-R" oldMat="" sizeRange="1,1.25,1.5,2,2.5,3,4,6,8,10,12" manufacturer="Aquatherm" path="\imperial\pipes\aquatherm\pp-r green pipes pe\poly pro\pressure\" icon="aquatherm pp-r green pipe sdr 11s 19ft pexpe.rfa" description="" descriptionType="Pipe, Aquatherm Green SDR 11S 19ft" ConnDesc="129" ExtraField="" FlangedType="Flat Face" displayPosition="3,0" DispPosition="4" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -4224,7 +4224,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Aquatherm Blue" type="IMPERIAL" Id="48" InVisibility="" IsHangerNeeded="False" SystemUniqueId="61c40913-7936-4d43-ac29-d91dfe193443" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="Aquatherm Blue" type="IMPERIAL" Id="49" InVisibility="" IsHangerNeeded="False" SystemUniqueId="61c40913-7936-4d43-ac29-d91dfe193443" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Aquatherm Blue" ID="2419229470045111" length="19" PreferredJunctionType="Tee" Material="Aquatherm PP-R" oldMat="" sizeRange="1,1.25,1.5,2,2.5,3,3.5,4,6,8,10,12,14" manufacturer="Aquatherm" path="\imperial\pipes\aquatherm\pp-r blue pipes pe\poly pro\pressure\" icon="aquatherm pp-r blue pipe sdr 9 mf 19ft pexpe.rfa" description="" descriptionType="Pipe, Aquatherm Blue SDR 9 19ft" ConnDesc="129" ExtraField="" FlangedType="Flat Face" displayPosition="4,0" DispPosition="5" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -4244,7 +4244,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="DS S/80 BW x 300# Thd" type="IMPERIAL" Id="49" InVisibility="" SystemUniqueId="dbb2548c-f741-49b7-a657-034159ead404" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us,david.scofield@questec.us">
+  <SystemDef name="DS S/80 BW x 300# Thd" type="IMPERIAL" Id="50" InVisibility="" SystemUniqueId="dbb2548c-f741-49b7-a657-034159ead404" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us,david.scofield@questec.us">
     <Fittings name="Carbon-Steel" isFitting="True">
       <pipeTypeItems name="Pipe, BEV x BEV, Sch 80 Seamless, A106B-1" ID="243954029005111" length="20" PreferredJunctionType="Tee" Material="Pipe Mill List CS Sch 80" oldMat="" sizeRange="0.125*,0.25*,0.375*,0.5*,0.75*,1*,1.25*,1.5*,2*,2.5,3,3.5,4,5,6,8,10,12,14,16,18,20,24" manufacturer="Pipe Mill list" path="\imperial\pipes\pipe mill list\cs sch 80 pipe bw\carbon steel\sch80\" icon="pipe mill list cs sch 80 a106 seamless gr-b pipe bw x bw.rfa" description="" descriptionType="Pipe, BEV x BEV, Sch 80 Seamless, A106B" ConnDesc="102" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -4454,7 +4454,7 @@
     </Fittings>
     <Fittings name="CustomContent" IsCustomContent="True" isFitting="True" />
   </SystemDef>
-  <SystemDef name="DI Flanged Star Pipe" type="IMPERIAL" Id="51" InVisibility="stephen.varner@questec.us" SystemUniqueId="bd356f5c-1f95-4594-97b0-0ad7d8a922d2" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us,david.scofield@questec.us">
+  <SystemDef name="DI Flanged Star Pipe" type="IMPERIAL" Id="52" InVisibility="stephen.varner@questec.us" SystemUniqueId="bd356f5c-1f95-4594-97b0-0ad7d8a922d2" HangerDisabledFor="judy_miller@trimble.com,2019@construct.com,stephen.varner@questec.us,david.scofield@questec.us">
     <Fittings name="Ductile-Iron" isFitting="True">
       <pipeTypeItems name="DI Flanged" ID="2410162560025111" length="18.5" PreferredJunctionType="Tee" Material="US Pipe Ductile Iron" oldMat="" sizeRange="4,6,8,10,12,14,16,18,20,24,30,36,42,48,54,60,64" manufacturer="US Pipe" path="\imperial\pipes\us pipe\dips c115 pipe class 125 flgd\ductile iron\125#\" icon="us pipe di class 125 c115 pipe flgdxflgd.rfa" description="Pipe, Ductile Iron wFlgd Ends, 150#" descriptionType="Pipe, Ductile Iron wFlgd Ends, 150#" ConnDesc="110" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -4531,7 +4531,7 @@
     </Fittings>
     <Fittings name="CustomContent" IsCustomContent="True" isFitting="True" />
   </SystemDef>
-  <SystemDef name="Swaglock" type="IMPERIAL" Id="50" InVisibility="" IsHangerNeeded="False" SystemUniqueId="143e1755-e8bf-491d-aa53-7fc8ac6a73f5" HangerDisabledFor="david.scofield@questec.us">
+  <SystemDef name="Swaglock" type="IMPERIAL" Id="51" InVisibility="" IsHangerNeeded="False" SystemUniqueId="143e1755-e8bf-491d-aa53-7fc8ac6a73f5" HangerDisabledFor="david.scofield@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Swaglock" ID="244194031405111" length="20" PreferredJunctionType="Tee" Material="Swagelok SS-304" oldMat="" sizeRange="0.25,0.375,0.5" manufacturer="SwageLok" path="\imperial\pipes\swagelok\ss304 instrumentation tubing (fs)\stainless steel\pressure\" icon="swagelok ss-304 seamless tube bwxbw.rfa" description="" descriptionType="SS Tubing, Lab Vacuum" ConnDesc="102" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -4550,7 +4550,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Tylok" type="IMPERIAL" Id="52" InVisibility="" IsHangerNeeded="False" SystemUniqueId="251bb5dd-52ef-437c-a262-dc839b422909" HangerDisabledFor="david.scofield@questec.us">
+  <SystemDef name="Tylok" type="IMPERIAL" Id="53" InVisibility="" IsHangerNeeded="False" SystemUniqueId="251bb5dd-52ef-437c-a262-dc839b422909" HangerDisabledFor="david.scofield@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Tylok" ID="242370521364865711" length="20" PreferredJunctionType="Tee" Material="" oldMat="" sizeRange="0.0625,0.125,0.1875,0.25,0.3125,0.375,0.5,0.625,0.75,0.875,1,1.125" manufacturer="Tylok" path="\imperial\pipes\tylok\ss304 tubes pe\stainless steel\tubing\" icon="tylok t-035-s-304 seamless tube pexpe.rfa" description="" descriptionType="" ConnDesc="127" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -4573,7 +4573,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Troop A Valves" type="IMPERIAL" Id="53" InVisibility="" IsHangerNeeded="False" SystemUniqueId="66e15b46-2e8e-442e-bf48-24fb0f37838c" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="Troop A Valves" type="IMPERIAL" Id="54" InVisibility="" IsHangerNeeded="False" SystemUniqueId="66e15b46-2e8e-442e-bf48-24fb0f37838c" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <Valves>
         <addDefaultItem name="nibco di ld-2000 butterfly valve w lever handle qtc" isConnCheck="" DisableFor="" fittingType="Valves" position="1" sizeRange="2x2,2.5x2.5,3x3,4x4,5x5,6x6" manufacturer="Nibco" path="\imperial\valves\nibco\200 psi ductile iron butterfly vlv flg\ductile iron\200 psi" icon="nibco di ld-2000 butterfly valve w lever handle qtc.rfa" GUID="73fcb25c-e984-44b7-91fe-3756fb8522b0" UserCustomFamilyID="0" description="Valve-Butterfly, 200# DI, Nibco LD-2000" descriptionType="Valve-Butterfly, 200# DI, Nibco LD-2000" angle="90" ConnDesc="110*110" CenterRadius="0.0703333333331829" Diameter="0.166666666666667" ExtraField="" csvFileName="Nibco DI LD-2000 Butterfly Valve Flgd x Flgd" displayPosition="0,0" DispPosition="1" ID="2430412444qtc" IsAngleChecking="False" ValveType="Weld-Neck" IsPressedCollar="False" IsValveGasket="False" IsAllowSlope="False" />
@@ -4591,7 +4591,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Spears LE" type="IMPERIAL" Id="54" InVisibility="" IsHangerNeeded="False" SystemUniqueId="e9d3c8b8-cd92-4ddc-afdd-0567d146a1ba" HangerDisabledFor="david.scofield@questec.us">
+  <SystemDef name="Spears LE" type="IMPERIAL" Id="55" InVisibility="" IsHangerNeeded="False" SystemUniqueId="e9d3c8b8-cd92-4ddc-afdd-0567d146a1ba" HangerDisabledFor="david.scofield@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Spears Low-Extractable-1" ID="2423624545205111" length="15" PreferredJunctionType="Tee" Material="Spears PVC" oldMat="" sizeRange="0.5,0.75,1,1.25,1.5,2,3,4,6" manufacturer="Spears" path="\imperial\pipes\spears\pvc sch80 pipe pe\pvc\sch80\" icon="sps pvc lxt pipe x15ft sch80 pexpe.rfa" description="" descriptionType="" ConnDesc="106" ExtraField="" FlangedType="Flat Face" displayPosition="3,2" DispPosition="14" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -4682,7 +4682,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="George Fischer Progef PN 10 PP" type="IMPERIAL" Id="55" InVisibility="" IsHangerNeeded="False" SystemUniqueId="fdb1f0f9-86f6-47e6-8e39-59181a8e0b17" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="George Fischer Progef PN 10 PP" type="IMPERIAL" Id="56" InVisibility="" IsHangerNeeded="False" SystemUniqueId="fdb1f0f9-86f6-47e6-8e39-59181a8e0b17" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="*Pipe, PN 10 Standard PP" ID="24256395155145111" length="16.4166666666667" PreferredJunctionType="Tee" Material="" oldMat="" sizeRange="0.5,0.75,1,1.25,1.5,2,2.5,3,4,4.5,5,6,7,8,9,10,11,12,14,16" manufacturer="George Fischer" path="\imperial\pipes\george fischer\progef pp-h pipes b-fusion\polyethylene\pressure" icon="gf pp-h 167-481-7 plus pipe sdr11 fuswxfusw.rfa" description="*Pipe, PN 10 Standard PP" descriptionType="*Pipe, PN 10 Standard PP" ConnDesc="122" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" IsBendable="False" DefaultBendRadius="5x" ReverseFlow="False" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -4716,7 +4716,7 @@
     <Fittings name="BuildingLayout" />
     <Fittings name="CustomContent" IsCustomContent="True" />
   </SystemDef>
-  <SystemDef name="Spears CPVC (VENT)" type="IMPERIAL" Id="31" InVisibility="" IsHangerNeeded="False" SystemUniqueId="c807dc68-653c-4d8f-b252-470c99b79d48" HangerDisabledFor="stephen.varner@questec.us">
+  <SystemDef name="Spears CPVC (VENT)" type="IMPERIAL" Id="32" InVisibility="" IsHangerNeeded="False" SystemUniqueId="c807dc68-653c-4d8f-b252-470c99b79d48" HangerDisabledFor="stephen.varner@questec.us">
     <Fittings name="Fittings" isFitting="True">
       <pipeTypeItems name="Spears CPVC DWV LabWaste-1" ID="242306814665111" length="10" PreferredJunctionType="Tee" Material="Spears CPVC Sch40" oldMat="" sizeRange="1.5,2,3,4,6,8,10,12,14,16,18,20,24" manufacturer="Spears" path="\imperial\pipes\spears\cpvc labwaste sch40 pipe\cpvc\sch40\" icon="sps cpvc lw labwaste pipe spgxspg.rfa" description="Pipe, CPVC DWV Lab Waste, Spears" descriptionType="Pipe, CPVC DWV Lab Waste, Spears" ConnDesc="106" ExtraField="" FlangedType="Flat Face" displayPosition="0,3" DispPosition="16" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" IsBendable="False" DefaultBendRadius="5x" ReverseFlow="True" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
       <Elbow>
@@ -4743,6 +4743,51 @@
       <Transition>
         <addDefaultItem name="SPS CPVC P107-C Flush Bushing SPGxHUB" isConnCheck="" DisableFor="" fittingType="Transition" position="1" sizeRange="2x1.5,3x1.5,3x2,4x2,4x3,6x3,6x4,8x4,8x6,10x3,10x4,10x6,10x8,12x4,12x6,12x8,12x10" GasketThickness="" manufacturer="Spears" path="\imperial\drainagefittings\spears\cpvc labwaste sch40 solvent\cpvc\sch40\" icon="SPS CPVC P107-C Flush Bushing SPGxHUB.rfa" UserCustomFamilyID="0" description="CPVC Flush Bushing, DWV, Spears P107-C" descriptionType="CPVC Flush Bushing, DWV, Spears P107-C" angle="90" ConnDesc="127*107" CenterRadius="0.354166666666667" Diameter="0.333333333333333" ExtraField="" csvFileName="SPS CPVC P107-C Flush Bushing SPGxHUB" displayPosition="1,2" DispPosition="12" ID="242305944643911" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
         <addDefaultItem name="SPS CPVC P102-C Increaser Reducer HUBxHUB" isConnCheck="" DisableFor="" fittingType="Transition" position="2" sizeRange="2x1.5,3x1.5,3x2,4x2,4x3,6x3,6x4,8x4,8x6,10x4,10x6,10x8,12x6,12x8,12x10" GasketThickness="" manufacturer="Spears" path="\imperial\drainagefittings\spears\cpvc labwaste sch40 solvent\cpvc\sch40\" icon="SPS CPVC P102-C Increaser Reducer HUBxHUB.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107*107" CenterRadius="3.10862446895044E-15" Diameter="0.333333333333333" ExtraField="" csvFileName="SPS CPVC P102-C Increaser Reducer HUBxHUB" displayPosition="3,3" DispPosition="19" ID="24230586464811" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+      </Transition>
+    </Fittings>
+    <Fittings name="Valves" isValve="True" />
+    <Fittings name="Accessories" />
+    <Fittings name="Joints" />
+    <Fittings name="BuildingLayout" />
+    <Fittings name="CustomContent" IsCustomContent="True" />
+  </SystemDef>
+  <SystemDef name="PVC Stock (Vent)" type="IMPERIAL" Id="24" InVisibility="" IsHangerNeeded="False" SystemUniqueId="67d63bdc-2f33-4785-bbcd-99834f6d2d3b" HangerDisabledFor="stephen.varner@questec.us">
+    <Fittings name="Fittings" isFitting="True">
+      <pipeTypeItems name="Pipe, PVC Sch 40 DWV Stock-1" ID="24228942131895111" length="20" PreferredJunctionType="Tee" Material="Charlotte PVC Sch40" oldMat="" sizeRange="1.25,1.5,2,3,4,5,6,8,10,12,14,16" manufacturer="Charlotte" path="\imperial\pipes\charlotte\pvc dwv pipe sch40 pe\pvc\sch40" icon="clt pvc sch40 dwv pipe 20 ft pexpe.rfa" description="Pipe, PVC Sch 40 DWV" descriptionType="Pipe, PVC Sch 40 DWV" ConnDesc="106" ExtraField="" FlangedType="Flat Face" displayPosition="0,0" DispPosition="1" IsJointNeeded="False" IsMechJointNeeded="False" IsFerruleJointNeeded="False" IsBendable="False" DefaultBendRadius="5x" ReverseFlow="True" ServiceType="" ServiceTypeColor="" SystemClassification="" LineWeight="" LinePattern="" IsCoaxial="False" IsJointReq="False" />
+      <Elbow>
+        <addDefaultItem name="QTC Stock PVC 300 Fourth Bend HUBxHUB" isConnCheck="" DisableFor="" fittingType="Elbow" position="1" sizeRange="1.25x1.25,1.5x1.5,2x2,3x3,4x4,6x6,8x8,10x10,12x12,14x14,16x16" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 300 fourth bend hubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107*107" CenterRadius="1.71354166666667" Diameter="1.33333333333333" ExtraField="" csvFileName="CLT PVC 300 Fourth Bend HUBxHUB" displayPosition="1,0" DispPosition="2" ID="24228980131873QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 300A Short Fourth Bend HUBxHUB" isConnCheck="" DisableFor="" fittingType="Elbow" position="2" sizeRange="8x8,10x10,12x12" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 300a short fourth bend hubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107*107" CenterRadius="0.609374999999999" Diameter="1" ExtraField="" csvFileName="CLT PVC 300A Short Fourth Bend HUBxHUB" displayPosition="2,0" DispPosition="3" ID="24228981131873QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 302 Fourth Bend Street SPGxHUB" isConnCheck="" DisableFor="" fittingType="Elbow" position="3" sizeRange="1.25x1.25,1.5x1.5,2x2,3x3,4x4,6x6,8x8,10x10,12x12,14x14,16x16" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 302 fourth bend street spgxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="127*107" CenterRadius="0.192708333333333" Diameter="0.166666666666667" ExtraField="" csvFileName="CLT PVC 302 Fourth Bend Street SPGxHUB" displayPosition="3,0" DispPosition="4" ID="242289851318746QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 304 Long Sweep Fourth Bend HUBxHUB" isConnCheck="" DisableFor="" fittingType="Elbow" position="4" sizeRange="1.5x1.5,2x2,3x3,4x4,6x6" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 304 long sweep fourth bend hubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107*107" CenterRadius="0.75" Diameter="0.5" ExtraField="" csvFileName="CLT PVC 304 Long Sweep Fourth Bend HUBxHUB" displayPosition="4,0" DispPosition="5" ID="242289871318711QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 321 Eighth Bend HUBxHUB" isConnCheck="" DisableFor="" fittingType="Elbow" position="5" sizeRange="1.25x1.25,1.5x1.5,2x2,3x3,4x4,6x6,8x8,10x10,12x12,14x14,16x16" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 321 eighth bend hubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="45" ConnDesc="107*107" CenterRadius="0.182291666666667" Diameter="0.333333333333333" ExtraField="" csvFileName="CLT PVC 321 Eighth Bend HUBxHUB" displayPosition="0,1" DispPosition="6" ID="2422899513187QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 323 Eighth Bend Street SPGxHUB" isConnCheck="" DisableFor="" fittingType="Elbow" position="6" sizeRange="1.25x1.25,1.5x1.5,2x2,3x3,4x4,6x6,8x8,10x10,12x12,14x14,16x16" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 323 eighth bend street spgxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="45" ConnDesc="127*107" CenterRadius="0.171875" Diameter="0.5" ExtraField="" csvFileName="CLT PVC 323 Eighth Bend Street SPGxHUB" displayPosition="1,1" DispPosition="7" ID="242289961318746QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 324 Sixteenth Bend HUBxHUB" isConnCheck="" DisableFor="" fittingType="Elbow" position="7" sizeRange="1.5x1.5,2x2,3x3,4x4,6x6,8x8,10x10,12x12,14x14,16x16" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 324 sixteenth bend hubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="22.5" ConnDesc="107*107" CenterRadius="0.484375" Diameter="1.33333333333333" ExtraField="" csvFileName="CLT PVC 324 Sixteenth Bend HUBxHUB" displayPosition="2,1" DispPosition="8" ID="24228997131871QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 326 Sixteenth Bend Street SPGxHUB" isConnCheck="" DisableFor="" fittingType="Elbow" position="8" sizeRange="1.5x1.5,2x2,3x3,4x4,6x6,8x8,10x10,12x12,14x14,16x16" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 326 sixteenth bend street spgxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="22.5" ConnDesc="127*107" CenterRadius="1.39583333333333" Diameter="1.33333333333333" ExtraField="" csvFileName="CLT PVC 326 Sixteenth Bend Street SPGxHUB" displayPosition="3,1" DispPosition="9" ID="242289981318712QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 329 Closet Bend Reducing HUBxHUB" isConnCheck="" DisableFor="" fittingType="Elbow" position="9" sizeRange="3x4" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 329 closet bend reducing hubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107*107" CenterRadius="0.249999999999999" Diameter="0.333333333333333" ExtraField="" csvFileName="CLT PVC 329 Closet Bend Reducing HUBxHUB" displayPosition="0,2" DispPosition="11" ID="24229001131871QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+      </Elbow>
+      <Tee>
+        <addDefaultItem name="QTC Stock PVC 327 Double Fourth Bend HUBxHUBxHUB" isConnCheck="" DisableFor="" fittingType="Tee" position="9" sizeRange="1.5x1.5x1.5,1.5x1.5x2,2x2x2,3x3x3" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 327 double fourth bend hubxhubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107*107*107" CenterRadius="0.255208333333339" Diameter="0.25" ExtraField="" csvFileName="CLT PVC 327 Double Fourth Bend HUBxHUBxHUB" displayPosition="4,1" DispPosition="10" ID="242289991318713QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 401 Sanitary Tee All Sizes HUBxHUBxHUB" isConnCheck="" DisableFor="" fittingType="Tee" position="5" sizeRange="1.25x1.25x1.25,1.5x1.5x1.5,2x1.5x1.5,2x1.5x2,2x2x1.5,2x2x2,3x3x1.5,3x3x2,3x3x3,4x4x1.5,4x4x2,4x4x3,4x4x4,6x6x4,6x6x6,8x8x4,8x8x6,8x8x8,10x10x10,12x12x12" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 401 sanitary tee all sizes hubxhubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107*107*107" CenterRadius="0.403645833333333" Diameter="0.333333333333333" ExtraField="" csvFileName="CLT PVC 401 Sanitary Tee Reducing HUBxHUBxHUB" displayPosition="1,2" DispPosition="12" ID="242290081318715QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 444X Cleanout Tee HUBxHUB" isConnCheck="" DisableFor="" fittingType="Tee" position="8" sizeRange="1.5x1.5x1.5,2x2x2,3x3x3,4x4x4,6x6x6,6x6x4,8x8x8,8x8x4,8x8x6,10x10x10,10x10x4,10x10x6,10x10x8,12x12x12,12x12x4,12x12x6,12x12x8,12x12x10" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 444x cleanout tee hubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107*107*107" CenterRadius="0.948958333333318" Diameter="0.833333333333333" ExtraField="" csvFileName="CLT PVC 444X Cleanout Tee HUBxHUB" displayPosition="3,2" DispPosition="14" ID="242290221318713QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 600 45 Wye HUBxHUBxHUB" isConnCheck="" DisableFor="" fittingType="Tee" position="6" sizeRange="1.25x1.25x1.25,1.5x1.5x1.5,2x2x2,3x3x3,4x4x4,6x6x6,8x8x8,10x10x10,12x12x12,14x14x14,16x16x16" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 600 45 wye hubxhubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="45" ConnDesc="107*107*107" CenterRadius="0.197916666666669" Diameter="0.666666666666667" ExtraField="" csvFileName="CLT PVC 600 45 Wye HUBxHUBxHUB" displayPosition="4,3" DispPosition="20" ID="24229037131877QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="CLT PVC 601 45 Wye Reducing HUBxHUBxHUB" isConnCheck="" DisableFor="" fittingType="Tee" position="7" sizeRange="2x1.5x1.5,2x1.5x2,2x2x1.5,3x3x1.5,3x3x2,4x4x1.5,4x4x2,4x4x3,6x6x3,6x6x4,8x8x4,8x8x6,10x10x4,10x10x6,10x10x8,12x12x4,12x12x6,12x12x8,12x12x10,14x14x4,14x14x6,14x14x8,14x14x10,14x14x12,16x16x4,16x16x6,16x16x8,16x16x10,16x16x12,16x16x14" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40\" icon="CLT PVC 601 45 Wye Reducing HUBxHUBxHUB.rfa" GUID="553a97b3-ead6-42d1-81a7-f22859211f77" UserCustomFamilyID="0" description="PVC Wye, Reducing, DWV, Charlotte 601" descriptionType="PVC Wye, Reducing, DWV, Charlotte 601" angle="45" ConnDesc="107*107*107" CenterRadius="0.817708333333313" Diameter="0.5" ExtraField="" csvFileName="CLT PVC 601 45 Wye Reducing HUBxHUBxHUB" displayPosition="3,5" DispPosition="29" ID="242290381318724111" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+      </Tee>
+      <Cap>
+        <addDefaultItem name="QTC Stock PVC 105X Cleanout Adapter With Plug SPG" isConnCheck="" DisableFor="" fittingType="Cap" position="1" sizeRange="1.5,2,3,4,6,8,10,12" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 105x cleanout adapter with plug spg.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="127" CenterRadius="0" Diameter="0.333333333333333" ExtraField="" csvFileName="CLT PVC 105X Cleanout Adapter With Plug SPG" displayPosition="3,4" DispPosition="24" ID="24228958131874QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 106 Cleanout Plug MPT" isConnCheck="" DisableFor="" fittingType="Cap" position="2" sizeRange="1.5,2,3,4,6,8,10,12" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 106 cleanout plug mpt.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="104" CenterRadius="0" Diameter="0.166666666666667" ExtraField="" csvFileName="CLT PVC 106 Cleanout Plug MPT" displayPosition="4,4" DispPosition="25" ID="24228959131874QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 116 Cap HUB" isConnCheck="" DisableFor="" fittingType="Cap" position="3" sizeRange="1.5,2,3,4,6,8,10,12,14,16" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 116 cap hub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107" CenterRadius="0" Diameter="0.833333333333333" ExtraField="" csvFileName="CLT PVC 116 Cap HUB" displayPosition="1,5" DispPosition="27" ID="24228969131872011" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 132 Outside Diameter Test Cap HUB" isConnCheck="" DisableFor="" fittingType="Cap" position="4" sizeRange="1.5,2,3,4" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 132 outside diameter test cap hub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107" CenterRadius="0" Diameter="0.333333333333333" ExtraField="" csvFileName="CLT PVC 132 Outside Diameter Test Cap HUB" displayPosition="2,5" DispPosition="28" ID="24228979131872QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+      </Cap>
+      <Cross>
+        <addDefaultItem name="QTC Stock PVC 429 Double Sanitary Tee All Sizes hubxhubxhubxhub" isConnCheck="" DisableFor="" fittingType="Cross" position="2" sizeRange="1.5x1.5x1.5x1.5,2x2x1.5x1.5,2x2x2x2,3x3x1.5x1.5,3x3x2x2,3x3x3x3,4x4x2x2,4x4x3x3,4x4x4x4" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 429 double sanitary tee all sizes hubxhubxhubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107*107*107*107" CenterRadius="0.296874999999971" Diameter="0.25" ExtraField="" csvFileName="CLT PVC 429 Double Sanitary Tee Reducing HUBxHUBxHUBxHUB" displayPosition="2,2" DispPosition="13" ID="242290171318713QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+      </Cross>
+      <Union>
+        <addDefaultItem name="QTC Stock PVC 100 Coupling HUBxHUB" isConnCheck="" DisableFor="" fittingType="Union" position="1" sizeRange="1.25x1.25,1.5x1.5,2x2,3x3,4x4,6x6,8x8,10x10,12x12,14x14,16x16" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 100 coupling hubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107*107" CenterRadius="0.140625000000001" Diameter="1.33333333333333" ExtraField="" csvFileName="CLT PVC 100 Coupling HUBxHUB" displayPosition="0,4" DispPosition="21" ID="24228943131873QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 101 Female Adapter FPTxHUB" isConnCheck="" DisableFor="" fittingType="Union" position="2" sizeRange="1.5x1.5,2x2,3x3,4x4,6x6,8x8,10x10,12x12" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 101 female adapter fptxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="105*107" CenterRadius="0.0234375000000006" Diameter="0.666666666666667" ExtraField="" csvFileName="CLT PVC 101 Female Adapter FPTxHUB" displayPosition="1,4" DispPosition="22" ID="242289441318762QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+      </Union>
+      <Transition>
+        <addDefaultItem name="QTC Stock PVC 102 Pipe Increaser Reducer HUBxHUB" isConnCheck="" DisableFor="" fittingType="Transition" position="1" sizeRange="1.5x2,1.5x3,2x3,2x4,2x1.5,3x4,3x6,3x1.5,3x2,4x6,4x8,4x10,4x12,4x14,4x16,4x2,4x3,6x8,6x10,6x12,6x14,6x16,6x3,6x4,8x10,8x12,8x14,8x16,8x4,8x6,10x12,10x14,10x16,10x4,10x6,10x8,12x14,12x16,12x4,12x6,12x8,12x10,14x16,14x4,14x6,14x8,14x10,14x12,16x4,16x6,16x8,16x10,16x12,16x14" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 102 pipe increaser reducer hubxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="107*107" CenterRadius="0.0781250000000033" Diameter="0.333333333333333" ExtraField="" csvFileName="CLT PVC 102 Pipe Increaser Reducer HUBxHUB" displayPosition="2,4" DispPosition="23" ID="24236506131879QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
+        <addDefaultItem name="QTC Stock PVC 107 Flush Bushing SPGxHUB" isConnCheck="" DisableFor="" fittingType="Transition" position="2" sizeRange="1.25x1.5,1.25x2,1.5x1.25,1.5x2,1.5x3,2x1.25,2x1.5,2x3,2x4,3x1.5,3x2,3x4,4x2,4x3,4x6,4x8,4x10,4x12,6x4,6x8,6x10,6x12,8x4,8x6,8x10,8x12,10x4,10x6,10x8,10x12,12x4,12x6,12x8,12x10" GasketThickness="" manufacturer="Charlotte" path="\imperial\drainagefittings\charlotte\pvc dwv ftgs sch40 solvent\pvc\sch40" icon="qtc stock pvc 107 flush bushing spgxhub.rfa" UserCustomFamilyID="0" description="" descriptionType="" angle="90" ConnDesc="127*107" CenterRadius="1.84300366102693E-14" Diameter="0.833333333333333" ExtraField="" csvFileName="CLT PVC 107 Flush Bushing SPGxHUB" displayPosition="0,5" DispPosition="26" ID="242289601318733QTC" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False" />
       </Transition>
     </Fittings>
     <Fittings name="Valves" isValve="True" />
