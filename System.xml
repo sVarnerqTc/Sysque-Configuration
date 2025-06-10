@@ -2170,6 +2170,16 @@
           <SizeData BDID="24222601730461149" Size="3x3" WeightImperial="15.5000" WeightMetric="7.0310" NominalSizeNPS="3" NominalSizeDN="80" OrderNumber="59-010-01" />
           <SizeData BDID="24222601730461151" Size="4x4" WeightImperial="30.7000" WeightMetric="13.9250" NominalSizeNPS="4" NominalSizeDN="100" OrderNumber="59-011-01" />
         </addDefaultItem>
+        <addDefaultItem name="Apollo BRZ Class 400 59-300 Series Y Strainer Solder x Solder" isConnCheck="" DisableFor="" fittingType="Valves" position="85" sizeRange="0.5x0.5,0.75x0.75,1x1,1.25x1.25,1.5x1.5,2x2,2.5x2.5,3x3" GasketThickness="" manufacturer="Apollo" path="\imperial\valves\apollo\brz strainers 400 solder\bronze\400#" icon="apollo brz class 400 59-300 series y strainer solder x solder.rfa" UserCustomFamilyID="0" description="Valve-Strainer, BRZ Class 400, 59-300 Series Y Strainer" descriptionType="Valve-Strainer, BRZ Class 400, 59-300 Series Y Strainer" angle="90" ConnDesc="108*108" CenterRadius="0.190416666666674" Diameter="0.166666666666667" ExtraField="" csvFileName="Apollo BRZ Class 400 59-300 Series Y Strainer Solder x Solder" displayPosition="4,5" DispPosition="30" ID="242225917294611" IsAngleChecking="False" IsPressedCollar="False" IsValveGasket="True" IsAllowSlope="False">
+          <SizeData BDID="24222591729461140" Size="0.5x0.5" WeightImperial="50.0000" WeightMetric="22.6800" NominalSizeNPS="1/2" NominalSizeDN="15" OrderNumber="59-303-01" />
+          <SizeData BDID="24222591729461142" Size="0.75x0.75" WeightImperial="121.0000" WeightMetric="54.8900" NominalSizeNPS="3/4" NominalSizeDN="20" OrderNumber="59-304-01" />
+          <SizeData BDID="24222591729461144" Size="1x1" WeightImperial="189.0000" WeightMetric="85.7300" NominalSizeNPS="1" NominalSizeDN="25" OrderNumber="59-305-01" />
+          <SizeData BDID="24222591729461145" Size="1.25x1.25" WeightImperial="280.0000" WeightMetric="127.0100" NominalSizeNPS="1-1/4" NominalSizeDN="32" OrderNumber="59-306-01" />
+          <SizeData BDID="24222591729461146" Size="1.5x1.5" WeightImperial="426.0000" WeightMetric="193.2300" NominalSizeNPS="1-1/2" NominalSizeDN="40" OrderNumber="59-307-01" />
+          <SizeData BDID="24222591729461147" Size="2x2" WeightImperial="627.0000" WeightMetric="284.4000" NominalSizeNPS="2" NominalSizeDN="50" OrderNumber="59-308-01" />
+          <SizeData BDID="24222591729461148" Size="2.5x2.5" WeightImperial="11.1700" WeightMetric="5.0670" NominalSizeNPS="2-1/2" NominalSizeDN="65" OrderNumber="59-309-01" />
+          <SizeData BDID="24222591729461149" Size="3x3" WeightImperial="16.4800" WeightMetric="7.4750" NominalSizeNPS="3" NominalSizeDN="80" OrderNumber="59-310-01" />
+        </addDefaultItem>
       </Valves>
       <Union />
       <MultiPort>
